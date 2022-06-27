@@ -11,6 +11,7 @@ import TabStack from './TabStack';
 import { createStackNavigator } from '@react-navigation/stack';
 import { NavigationContainer } from '@react-navigation/native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import Profile from './Profile';
 
 export default function Rootstack() {
   const [name, setname] = useState();
@@ -102,6 +103,7 @@ export default function Rootstack() {
           <Stack.Screen name="TabStack" component={TabStack} initialParams={{ params:{exist: false, Number: number, Name: name,Email:email} }} options={{ headerShown: false }} />
           <Stack.Screen name="Homescreen" component={Homescreen}  options={{ headerShown: false }} />
           <Stack.Screen name="Test" component={Test} options={{ headerShown: false }} />
+          <Stack.Screen name="Profile" component={Profile} options={{ headerShown: false }} />
         </Stack.Navigator>
       </NavigationContainer>
     )

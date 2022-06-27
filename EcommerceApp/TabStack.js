@@ -35,7 +35,7 @@ const focuscolor='#FFE300'
 
                                     'home'
                                 }
-                                size={focused ? 35 : 20}
+                                size={focused ? 35 : 23}
                                 color={focused ? focuscolor : 'white'}
                             />
                         );
@@ -63,7 +63,8 @@ const focuscolor='#FFE300'
                             <FontAwesome
                                 name={
                                     'bell'}
-                                size={focused ? 29 : 20}
+                                size={focused ? 27 : 18}
+                                // size={{height:10,width:10}}
                                 color={focused ? focuscolor : 'white'}
                             />
                         );
