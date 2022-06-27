@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "28619017368",
+    "project_id": "ammararif888",
+    "storage_bucket": "ammararif888.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:28619017368:android:59f4ab5d6c55157cca54ed",
+        "android_client_info": {
+          "package_name": "com.drawerammar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "28619017368-kj28j0hsagu5ljgkk9p14u2elanll1qu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAf3MvyP-1nIpUlArL8YyV5ADS6n5ZgD_E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "28619017368-kj28j0hsagu5ljgkk9p14u2elanll1qu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
